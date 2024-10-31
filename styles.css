@@ -1,0 +1,191 @@
+body{
+    background-image: url(img/f5f5dd.png);
+    background-repeat: repeat-y;
+}
+
+.navbar .btn{
+    background-color: #ba400f;
+    border: none;
+    color: white;
+}
+
+.navbar .btn:hover{
+    background-color: #208b23;
+    border: none;
+    color: white;
+}
+
+.nav-item:nth-child(2) .btn{
+    background-color: transparent;
+    border: none;
+    color: #208b23;
+    font-size: 35px;
+    line-height: 0px;
+}
+
+.kategori ul{
+    text-align: center;
+}
+
+.kategori ul li{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background: #208b23;
+    border-radius: 100%;
+}
+
+.kategori ul li a{
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+
+.kategori ul li a i{
+    line-height: 80px;
+}
+
+.box{
+    display: inline-block;
+}
+
+.box p{
+    color: #ba400f;
+    font-weight: bold;
+}
+
+/*BANNER*/
+#banner{
+    height: 50vh;
+    border-color: #ba400f;
+    margin: 50px 100px 50px 100px;
+    height: 30px;
+    padding-bottom: 400px;
+}
+
+.input-group-append{
+    display: flex;
+    width: 600px;
+    margin-top: 20px;
+    align-items: center; 
+}
+
+.input-group-append input{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.input-group-append i{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.input-group-append .icon{
+    position: absolute;
+    left: 910px;
+}
+
+.input-group{
+    justify-content: center;
+}
+
+/*PRODUK*/
+.products{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 2.5rem;
+    object-fit: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.row{
+    position: relative;
+    background: #ba400f;
+    object-fit: cover
+}
+
+.row img{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.judul h5{
+    font-size: 15px;
+    color: white;
+}
+
+.right{
+    float: right;
+    background-color: #208b23;
+}
+
+.left{
+    float: left;
+}
+
+.teks{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.teks p{
+    margin: 0;
+    padding: 0;
+}
+
+.rating i{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+/**FOOTER**/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #ffd801;
+    padding-top: 30px;
+    padding-left: 0;
+    grid-template-columns: unset;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.col a{
+    font-weight: 500;
+    color: #ba400f;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.col a:hover{
+    color: #208b23;
+}
+
+.col li{
+    padding-bottom: 15px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #ba400f;
+    font-weight: 900;
+}
+
+.col li a i{
+    font-size: 20px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 15px;
+}
